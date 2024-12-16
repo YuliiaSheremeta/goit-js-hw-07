@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #fafafa;
+    color: #212121;
+    line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+/*1 дз*/
+
+.gallery-list {
+   
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+.item-gallery {
+   flex: 1 1 calc(33.333% - 24px);}
+
+/*2 дз*/
+
+.container-task-second {
+    max-width: 1158px;
+     margin-left: auto;
+     margin-right: auto;
+}
+img{
+    width: 100%;
+    height: auto; 
+}
+.item-categoties{
+    border: 1px solid #808080;
+    margin-bottom: 8px;
+    max-width: 360px;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+}
+
+/*3 дз*/
+
+.input-task-tree{
+    width: 360px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    
+}
+.title-input{
+    width: 248px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/*4 дз*/
+
+.login-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 360px;
+        margin: 0 auto;
+    
+   
+}
+.label-form {
+    margin-bottom: 10px;
+   
+}
+
+.label-form input {
+    display: block;
+    width: 100%;
+    padding: 8px; 
+    margin-top: 8px; 
+}
+.button-form{
+        width: 86px;
+        height: 40px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 8px ;
+        opacity: 0px;
+        background: #4E75FF;
+        color: #FFFFFF;
+        margin-top: 8px;
+}
+
+/*5 дз*/
+
+.widget{
+    max-width: 345px;
+    text-align: center;
+    margin: auto;
+}
+.change-color{
+    
+        width: 148px;
+        height: 40px;
+        padding: 8px 16px 8px 16px;
+        gap: 10px;
+        border-radius: 8px;
+        opacity: 0px;
+        background: #4E75FF;
+        color:  #FFFFFF;
+       
+       
+}
+/*6 дз*/
+
+.input-button-container{
+    max-width: 486px;
+    height: auto;
+    text-align: center;
+    margin:24px auto 16px;
+}
+.boxes-container{
+    max-width: 486px;
+    height: auto;
+    margin: 24px auto 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.input-last-task{
+width: Hug (150px)px;
+    height: Hug (40px)px;
+    padding: 8px;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-color: black;
+ 
+}
+.button-create{
+width: Fixed (120px)px;
+    height: Hug (40px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #4E75FF;
+    color:#FFFFFF;
+}
+.button-destroy{
+width: Fixed (120px)px;
+    height: Hug (40px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 16px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #FF4E4E;
+    color: #FFFFFF;
+}
