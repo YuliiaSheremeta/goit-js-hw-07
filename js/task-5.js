@@ -7,10 +7,10 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-const onBtnEvent = btnChangeColor.addEventListener('click', () => {
+btnChangeColor.addEventListener('click', () => {
     const newColor = getRandomHexColor();
     bodyStyles.style.backgroundColor = newColor; 
-    spanColor.style.color = newColor;
+    spanColor.textContent = newColor;
 })
 
 
